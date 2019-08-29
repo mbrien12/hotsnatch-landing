@@ -1,0 +1,40 @@
+body {
+  font-family: 'Inconsolata', monospace;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%
+}
+
+h1 {
+  font-weight: bold;
+}
+
+img {
+  width: 80%;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .main-container {
+    margin-top: 5%;
+  }
+
+  h1, h2 {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  img {
+    width: 50%;
+  }
+}
